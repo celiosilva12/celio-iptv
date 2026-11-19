@@ -1,0 +1,76 @@
+#EXTM3U
+
+#EXTINF:-1 group-title="AO VIVO",Canal 01
+https://SEU-SERVIDOR.com/ao-vivo-01.m3u8
+#EXTINF:-1 group-title="AO VIVO",Canal 02
+https://SEU-SERVIDOR.com/ao-vivo-02.m3u8
+#EXTINF:-1 group-title="AO VIVO",Canal 03
+https://SEU-SERVIDOR.com/ao-vivo-03.m3u8
+#EXTINF:-1 group-title="AO VIVO",Canal 04
+https://SEU-SERVIDOR.com/ao-vivo-04.m3u8
+#EXTINF:-1 group-title="AO VIVO",Canal 05
+https://SEU-SERVIDOR.com/ao-vivo-05.m3u8
+#EXTINF:-1 group-title="AO VIVO",Canal 06
+https://SEU-SERVIDOR.com/ao-vivo-06.m3u8
+#EXTINF:-1 group-title="AO VIVO",Canal 07
+https://SEU-SERVIDOR.com/ao-vivo-07.m3u8
+#EXTINF:-1 group-title="AO VIVO",Canal 08
+https://SEU-SERVIDOR.com/ao-vivo-08.m3u8
+#EXTINF:-1 group-title="AO VIVO",Canal 09
+https://SEU-SERVIDOR.com/ao-vivo-09.m3u8
+#EXTINF:-1 group-title="AO VIVO",Canal 10
+https://SEU-SERVIDOR.com/ao-vivo-10.m3u8
+
+#EXTINF:-1 group-title="FILMES",Filme 01
+https://SEU-SERVIDOR.com/filme-01.mp4
+#EXTINF:-1 group-title="FILMES",Filme 02
+https://SEU-SERVIDOR.com/filme-02.mp4
+#EXTINF:-1 group-title="FILMES",Filme 03
+https://SEU-SERVIDOR.com/filme-03.mp4
+#EXTINF:-1 group-title="FILMES",Filme 04
+https://SEU-SERVIDOR.com/filme-04.mp4
+#EXTINF:-1 group-title="FILMES",Filme 05
+https://SEU-SERVIDOR.com/filme-05.mp4
+#EXTINF:-1 group-title="FILMES",Filme 06
+https://SEU-SERVIDOR.com/filme-06.mp4
+#EXTINF:-1 group-title="FILMES",Filme 07
+https://SEU-SERVIDOR.com/filme-07.mp4
+#EXTINF:-1 group-title="FILMES",Filme 08
+https://SEU-SERVIDOR.com/filme-08.mp4
+#EXTINF:-1 group-title="FILMES",Filme 09
+https://SEU-SERVIDOR.com/filme-09.mp4
+#EXTINF:-1 group-title="FILMES",Filme 10
+https://SEU-SERVIDOR.com/filme-10.mp4
+
+#EXTINF:-1 group-title="SÉRIES",Episódio 01
+https://SEU-SERVIDOR.com/serie-01.mp4
+#EXTINF:-1 group-title="SÉRIES",Episódio 02
+https://SEU-SERVIDOR.com/serie-02.mp4
+#EXTINF:-1 group-title="SÉRIES",Episódio 03
+https://SEU-SERVIDOR.com/serie-03.mp4
+#EXTINF:-1 group-title="SÉRIES",Episódio 04
+https://SEU-SERVIDOR.com/serie-04.mp4
+#EXTINF:-1 group-title="SÉRIES",Episódio 05
+https://SEU-SERVIDOR.com/serie-05.mp4
+
+#EXTINF:-1 group-title="ENTRETENIMENTO",Vídeo 01
+https://SEU-SERVIDOR.com/video-01.mp4
+#EXTINF:-1 group-title="ENTRETENIMENTO",Vídeo 02
+https://SEU-SERVIDOR.com/video-02.mp4
+#EXTINF:-1 group-title="ENTRETENIMENTO",Vídeo 03
+https://SEU-SERVIDOR.com/video-03.mp4
+#EXTINF:-1 group-title="ENTRETENIMENTO",Vídeo 04
+https://SEU-SERVIDOR.com/video-04.mp4
+#EXTINF:-1 group-title="ENTRETENIMENTO",Vídeo 05
+https://SEU-SERVIDOR.com/video-05.mp4
+
+#EXTINF:-1 group-title="ESPECIAIS",Especial 01
+https://SEU-SERVIDOR.com/especial-01.mp4
+#EXTINF:-1 group-title="ESPECIAIS",Especial 02
+https://SEU-SERVIDOR.com/especial-02.mp4
+#EXTINF:-1 group-title="ESPECIAIS",Especial 03
+https://SEU-SERVIDOR.com/especial-03.mp4
+#EXTINF:-1 group-title="ESPECIAIS",Especial 04
+https://SEU-SERVIDOR.com/especial-04.mp4
+#EXTINF:-1 group-title="ESPECIAIS",Especial 05
+https://SEU-SERVIDOR.com/especial-05.mp4
