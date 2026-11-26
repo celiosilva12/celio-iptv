@@ -59,5 +59,45 @@ footer{padding:20px;color:#888;font-size:13px}
   </div>
 </section>
 
+<section style="background:#171717;color:white;padding:20px;margin:15px;border-radius:15px;text-align:center">
+  <h2>📺 ASSISTA AGORA</h2>
+
+  <video id="player" controls playsinline
+    style="width:100%;border-radius:10px;background:black">
+  </video>
+
+  <p>Digite o link direto do seu vídeo MP4:</p>
+
+  <input id="videoLink" type="url"
+    placeholder="Cole aqui o link MP4"
+    style="width:90%;padding:12px;border-radius:8px">
+
+  <button onclick="assistirVideo()"
+    style="background:#00cc66;color:white;padding:14px;border:0;border-radius:10px;margin-top:12px;font-weight:bold">
+    ▶ PLAY - ASSISTIR
+  </button>
+
+  <p id="mensagem"></p>
+</section>
+
+<script>
+function assistirVideo() {
+  const link = document.getElementById("videoLink").value.trim();
+  const player = document.getElementById("player");
+  const mensagem = document.getElementById("mensagem");
+
+  if (!link.startsWith("https://")) {
+    mensagem.textContent = "Digite um link HTTPS válido.";
+    return;
+  }
+
+  player.src = link;
+  player.load();
+  player.play().catch(() => {
+    mensagem.textContent = "Toque no PLAY para iniciar o vídeo.";
+  });
+}
+</script>
+
 </body>
 </html>
