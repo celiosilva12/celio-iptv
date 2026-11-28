@@ -163,35 +163,36 @@ function abrirFilme(link) {
 
     <div style="background:#292929;padding:10px;border-radius:12px;text-align:center">
       <div style="background:linear-gradient(145deg,#172c49,#703b65);height:180px;display:flex;align-items:center;justify-content:center;border-radius:8px;font-size:24px">
-        🐰
-      </div>
+
+
+<section style="background:#171717;color:white;padding:20px;margin:15px;border-radius:15px">
+
+  <h2 style="text-align:center">🎬 NOSSA GALERIA DE FILMES</h2>
+
+  <div style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px">
+
+    <div style="background:#292929;padding:10px;border-radius:12px;text-align:center">
+      <img src="capa_filme_01.jpg" alt="Big Buck Bunny" style="width:100%;height:180px;object-fit:cover;border-radius:8px">
       <h3>Big Buck Bunny</h3>
-      <button onclick="abrirFilme('https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4')"
-      style="background:#00cc66;color:white;border:0;padding:12px;border-radius:8px;width:100%;font-weight:bold">
+      <button onclick="abrirFilme('https://www.w3schools.com/html/mov_bbb.mp4')" style="background:#00cc66;color:white;border:0;padding:12px;border-radius:8px;width:100%;font-weight:bold">
         ▶ ASSISTIR
       </button>
     </div>
 
     <div style="background:#292929;padding:10px;border-radius:12px;text-align:center">
-      <div style="background:linear-gradient(145deg,#501b1b,#d18a26);height:180px;display:flex;align-items:center;justify-content:center;border-radius:8px;font-size:24px">
-        🎬
-      </div>
+      <img src="capa_filme_02.jpg" alt="Filme 02" style="width:100%;height:180px;object-fit:cover;border-radius:8px">
       <h3>Filme 02</h3>
       <p style="color:#00cc66">EM BREVE</p>
     </div>
 
     <div style="background:#292929;padding:10px;border-radius:12px;text-align:center">
-      <div style="background:linear-gradient(145deg,#142c35,#287b75);height:180px;display:flex;align-items:center;justify-content:center;border-radius:8px;font-size:24px">
-        🍿
-      </div>
+      <img src="capa_filme_03.jpg" alt="Filme 03" style="width:100%;height:180px;object-fit:cover;border-radius:8px">
       <h3>Filme 03</h3>
       <p style="color:#00cc66">EM BREVE</p>
     </div>
 
     <div style="background:#292929;padding:10px;border-radius:12px;text-align:center">
-      <div style="background:linear-gradient(145deg,#30204c,#8757a4);height:180px;display:flex;align-items:center;justify-content:center;border-radius:8px;font-size:24px">
-        ⭐
-      </div>
+      <img src="capa_filme_04.jpg" alt="Filme 04" style="width:100%;height:180px;object-fit:cover;border-radius:8px">
       <h3>Filme 04</h3>
       <p style="color:#00cc66">EM BREVE</p>
     </div>
@@ -199,7 +200,6 @@ function abrirFilme(link) {
   </div>
 </section>
 
-<script>
 function abrirFilme(link) {
   const player = document.getElementById("player");
 
